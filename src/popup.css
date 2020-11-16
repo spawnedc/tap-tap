@@ -1,0 +1,25 @@
+body {
+  min-width: 200px;
+  font-size: 15px;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.btn-download {
+  display: none;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.btn-download:last-child {
+  margin-bottom: 0;
+}
+
+.btn-download.visible {
+  display: block;
+}
